@@ -1,3 +1,4 @@
 anprvenv/
 .env/
 __pycache__/
+*.db
