@@ -2,4 +2,5 @@ anprvenv/
 .env/
 __pycache__/
 *.db/
-config.json
+config.json/
+cameras.yaml
