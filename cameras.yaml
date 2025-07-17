@@ -1,0 +1,60 @@
+cam1: rtsp://ttl:transline321@192.168.10.160:554/Streaming/Channels/101
+cam2: wwerwerwer
+
+
+
+{
+    "rtsp": {
+        "SB01": "rtsp://ttl:admin123@192.168.10.23:554/Streaming/Channels/101"
+    },
+    "loi": {
+        "SB01": "[(370, 183), (958, 592)]"
+    },
+    "detection": {
+        "conf_threshold": 0.4,
+        "iou_threshold": 0.3,
+        "image_size": 640
+    }
+   
+}
+
+
+
+
+
+
+{
+    "cameras": {
+        "cvd": {
+            "rtsp": "vfdsdgerger",
+            "loi_point": []
+        },
+        "cam1": {
+            "rtsp": "rtsp://ttl:transline321@192.168.10.160:554/Streaming/Channels/101",
+            "loi_point": [
+                [
+                    285,
+                    197
+                ],
+                [
+                    864,
+                    188
+                ]
+            ]
+        },
+        "cam2": {
+            "rtsp": "rtsp://ttl:admin123@192.168.10.23:554/Streaming/Channels/101",
+            "loi_point": [
+                [
+                    160,
+                    90
+                ],
+                [
+                    732,
+                    92
+                ]
+            ]
+        }
+    },
+    "active_camera": null
+}

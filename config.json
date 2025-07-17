@@ -1,0 +1,23 @@
+{
+    "cameras": {
+        "cam1": {
+            "rtsp": "rtsp://ttl:admin123@192.168.10.23:554/Streaming/Channels/101",
+            "loi_point": {
+                "x1": 145,
+                "y1": 223,
+                "x2": 816,
+                "y2": 188
+            }
+        },
+        "cam2": {
+            "rtsp": "rtsp://ttl:transline321@192.168.10.160:554/Streaming/Channels/101",
+            "loi_point": {
+                "x1": 250,
+                "y1": 118,
+                "x2": 780,
+                "y2": 96
+            }
+        }
+    },
+    "active_camera": null
+}
